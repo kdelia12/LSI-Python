@@ -1,0 +1,92 @@
+body {
+  background: url(https://images3.alphacoders.com/122/1221881.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.search {
+  width: 500px;
+  height: 40px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background: #444;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+
+.search input {
+  width: 370px;
+  padding: 10px 5px;
+  float: left;
+  color: #ccc;
+  border: 0;
+  background: transparent;
+  border-radius: 3px 0 0 3px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search input:focus {
+  outline: 0;
+  background: transparent;
+}
+
+.search button {
+  position: relative;
+  float: right;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  color: #fff;
+  background: transparent;
+  border-left: 1px solid #fff;
+  border-radius: 0 3px 3px 0;
+}
+
+.search button:hover {
+  background: #fff;
+  color: #444;
+}
+
+.search button:active {
+  box-shadow: 0px 0px 12px 0px #e1e1e1;
+}
+
+.search button:focus {
+  outline: 0;
+}
+
+.result {
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  width: 500px;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.result:hover {
+  background: rgba(255, 255, 255, 0.34);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.72);
+  width: 500px;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
