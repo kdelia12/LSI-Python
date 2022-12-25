@@ -5,6 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # List dokumen yang akan diindeks
 documents = [
+    "aubrey adalah orang yang cantik",
+    "wildan adalah orang yang gateng"
 ]
 if not documents:
     print("Tidak ada dokumen yang diindeks")
