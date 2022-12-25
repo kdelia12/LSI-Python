@@ -1,0 +1,54 @@
+body {
+  background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/13611851-c6bd-4a74-9b5b-a519a5d9c4b1/deyw27i-4384ab04-6635-4b6c-9a5a-c13e86294e95.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzEzNjExODUxLWM2YmQtNGE3NC05YjViLWE1MTlhNWQ5YzRiMVwvZGV5dzI3aS00Mzg0YWIwNC02NjM1LTRiNmMtOWE1YS1jMTNlODYyOTRlOTUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.8RizJ4frIl-3n0khbgRdVHa3cSjjFXQfK5VhXYHqySM.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+// SEARCH BEGINS
+.search {
+  width: 500px;
+  height: 40px;
+  margin: 150px auto;
+  background: #444;
+  background: rgba(0,0,0,.2);
+  border-radius:  3px;
+  border: 1px solid #fff;
+  
+  input {
+    width: 370px;
+    padding: 10px 5px;
+    float: left;
+    color: #ccc;
+    border: 0;
+    background: transparent;
+    border-radius: 3px 0 0 3px;
+    &:focus {
+      outline: 0;
+      background:transparent;
+    }
+  }
+  
+  button {
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    background: transparent;
+    border-left: 1px solid #fff;
+    border-radius: 0 3px 3px 0;
+    &:hover {
+      background: #fff;
+      color:#444;
+    }
+    &:active {
+      box-shadow: 0px 0px 12px 0px rgba(225, 225, 225, 1);
+    }
+    &:focus {
+      outline: 0;
+    }
+  }  
+}
+// SEARCH ENDS
